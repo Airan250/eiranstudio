@@ -1,0 +1,132 @@
+:root{
+    --first-color:#ba17ba;
+    --last-color:#3441b8;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    /* background-image: linear-gradient(to right, #a517ba,#5f1782); */
+    background: black;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    padding: 0;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-item{
+    padding: 8px 10px;
+    transition: 0.5s;
+}
+.nav-item:hover{background: black;}
+.nav-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+.toggle{
+    display: none;
+}
+
+.first-bio > div{
+    margin: 10px 14px;
+}
+.image{
+    width: 100%;
+}
+#banner{
+    background-image: linear-gradient(to right, red,magenta);
+    /* background-color: black; */
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 0;
+}
+.my-name{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100pxs;
+}
+.play-btn{
+    width: 60px;
+    margin:20px;
+}
+.img-fluid{border-radius: 6px;}
+#banner a{
+    color: #fff;
+}
+.bottom-img{
+width: 100%;
+}
+#footer{
+    /* background-image: linear-gradient(to right, #a517ba,#5f1782); */
+    background-color: black;
+    color: #fff;
+}
+#footer .santech-com{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-image: linear-gradient(to right, #a517ba,#a8b31a);
+    border-radius: 12px;
+}   
+.footer-box img{
+    background-image: linear-gradient(to right, #a517ba,#efecf0,#5f1782);
+    padding: 10px;
+    width: 30px;
+    border-radius: 6px;
+}
+#footer .form-control{
+    box-shadow: none !important;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 300px;
+}
+#footer .btn-primary{
+    box-shadow: none !important;
+    border-radius:0;
+    border: none;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+hr{
+    background: white;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    .navbar-nav{
+        position: absolute;
+        z-index: 1;
+        background-image: linear-gradient(to right, #8c17ba,#6423cc);
+        display: none;
+        width: 100%;
+        top:42px;
+    }
+    .toggle{
+        margin: 5px;
+        display: block;
+    }
+    .nav-item:hover{
+        text-align: center;
+        background-image: linear-gradient(to right, #a517ba,#2b0d3a,#5f1782);
+    }
+    #profile-area .follow-us{
+       margin-left: 50px;
+    }
+}
+/*----------------------login section---------------------*/
